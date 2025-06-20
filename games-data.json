@@ -1,0 +1,1313 @@
+[
+  {
+    "name": "2048",
+    "type": "Puzzle",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/2048/assets/logo.png"
+    ],
+    "shortDesc": "Combine numbers to reach 2048. Simple to play, hard to master!",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/2048/index.html"
+  },
+  {
+    "name": "40963",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/40963/assets/sprites/logo.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/40963/index.html"
+  },
+  {
+    "name": "Allalive",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/allalive/assets/area.jpg",
+      "games-master/allalive/assets/background.jpg",
+      "games-master/allalive/assets/block.jpg"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/allalive/index.html"
+  },
+  {
+    "name": "Arpg",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/arpg/images/logo.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/arpg/index.html"
+  },
+  {
+    "name": "Attackonball",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/attackonball/assets/Ball0.png",
+      "games-master/attackonball/assets/Ball1.png",
+      "games-master/attackonball/assets/Ball2.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/attackonball/index.html"
+  },
+  {
+    "name": "Ballgame",
+    "type": "Sports",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/ballgame/assets/blue.png",
+      "games-master/ballgame/assets/red.png",
+      "games-master/ballgame/assets/yellow.png"
+    ],
+    "shortDesc": "Play billiards and show off your skills!",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/ballgame/index.html"
+  },
+  {
+    "name": "Bike",
+    "type": "Sports",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/bike/assets/bird.png",
+      "games-master/bike/assets/bird_json.png",
+      "games-master/bike/assets/close-btn.png"
+    ],
+    "shortDesc": "Ride your bike and overcome obstacles!",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/bike/index.html"
+  },
+  {
+    "name": "Blindmoon",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/blindmoon/assets/baicai.png",
+      "games-master/blindmoon/assets/bg.png",
+      "games-master/blindmoon/assets/bird.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/blindmoon/index.html"
+  },
+  {
+    "name": "Blockdown",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/blockdown/assets/img/bird.png",
+      "games-master/blockdown/assets/img/down.png",
+      "games-master/blockdown/assets/img/i.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/blockdown/index.html"
+  },
+  {
+    "name": "Bottle3",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/bottle3/assets/background.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/bottle3/index.html"
+  },
+  {
+    "name": "Breaklovers",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/breaklovers/assets/img/bg.png",
+      "games-master/breaklovers/assets/img/chaisan.png",
+      "games-master/breaklovers/assets/img/daojishi.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/breaklovers/index.html"
+  },
+  {
+    "name": "Breakout3",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/breakout3/assets/breakout.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/breakout3/index.html"
+  },
+  {
+    "name": "Candytbc",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/candytbc/assets/background.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/candytbc/index.html"
+  },
+  {
+    "name": "Catapult",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/catapult/assets/bg.jpg",
+      "games-master/catapult/assets/bullet - 副本.png",
+      "games-master/catapult/assets/bullet.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/catapult/index.html"
+  },
+  {
+    "name": "Charge",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/charge/assets/fonts/font-number-blue.png",
+      "games-master/charge/assets/fonts/font-number-red.png",
+      "games-master/charge/assets/fonts/font-time.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/charge/index.html"
+  },
+  {
+    "name": "Circlepath",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/circlepath/assets/arm.png",
+      "games-master/circlepath/assets/ball.png",
+      "games-master/circlepath/assets/target.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/circlepath/index.html"
+  },
+  {
+    "name": "Collectstar",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/collectstar/assets/baddie.png",
+      "games-master/collectstar/assets/diamond.png",
+      "games-master/collectstar/assets/dude.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/collectstar/index.html"
+  },
+  {
+    "name": "Crazybird",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/crazybird/assets/background.jpg",
+      "games-master/crazybird/assets/bird.png",
+      "games-master/crazybird/assets/cat1.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/crazybird/index.html"
+  },
+  {
+    "name": "Dinosaur",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/dinosaur/assets/images/BG.png",
+      "games-master/dinosaur/assets/images/fufu.png",
+      "games-master/dinosaur/assets/textures/objects.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/dinosaur/index.html"
+  },
+  {
+    "name": "Donottapwhitetile",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/donottapwhitetile/assets/background.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/donottapwhitetile/index.html"
+  },
+  {
+    "name": "Downfloor",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/downfloor/assets/coin.png",
+      "games-master/downfloor/assets/hero.png",
+      "games-master/downfloor/assets/skull.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/downfloor/index.html"
+  },
+  {
+    "name": "Dragandmatch",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/dragandmatch/assets/tiles.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/dragandmatch/index.html"
+  },
+  {
+    "name": "Eatball",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/eatball/assets/logo.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/eatball/index.html"
+  },
+  {
+    "name": "Eliminate",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/eliminate/assets/sprites/rotate.png",
+      "games-master/eliminate/assets/sprites/tiles.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/eliminate/index.html"
+  },
+  {
+    "name": "Fctank",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/fctank/assets/bore.png",
+      "games-master/fctank/assets/bouns.jpg",
+      "games-master/fctank/assets/brick.jpg"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/fctank/index.html"
+  },
+  {
+    "name": "Fifty",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/fifty/assets/logo.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/fifty/index.html"
+  },
+  {
+    "name": "Findpath",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/findpath/assets/hero.png",
+      "games-master/findpath/assets/loading.png",
+      "games-master/findpath/assets/maptiles.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/findpath/index.html"
+  },
+  {
+    "name": "Flappybird",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/flappybird/assets/background.png"
+    ],
+    "shortDesc": "Tap to fly and avoid the pipes. How far can you go?",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/flappybird/index.html"
+  },
+  {
+    "name": "Flappybird3",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/flappybird3/assets/background.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/flappybird3/index.html"
+  },
+  {
+    "name": "Fruit",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/fruit/assets/logo.png"
+    ],
+    "shortDesc": "Slice the flying fruits! Fast, fun, and addictive.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/fruit/index.html"
+  },
+  {
+    "name": "Fruitwar",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/fruitwar/images/apple.png",
+      "games-master/fruitwar/images/applewater_hou.png",
+      "games-master/fruitwar/images/applewater_qian.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/fruitwar/index.html"
+  },
+  {
+    "name": "Fubag",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/fubag/assets/cover.png",
+      "games-master/fubag/assets/fudai.png",
+      "games-master/fubag/assets/gameBg.jpg"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/fubag/index.html"
+  },
+  {
+    "name": "Getcockscomb",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/getcockscomb/assets/images/again.png",
+      "games-master/getcockscomb/assets/images/bangAll.png",
+      "games-master/getcockscomb/assets/images/boom.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/getcockscomb/index.html"
+  },
+  {
+    "name": "Getcoins3",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/getcoins3/assets/images/1.png",
+      "games-master/getcoins3/assets/images/2.png",
+      "games-master/getcoins3/assets/images/3.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/getcoins3/index.html"
+  },
+  {
+    "name": "Getogether",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/getogether/assets/background.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/getogether/index.html"
+  },
+  {
+    "name": "Getthestarforyou",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/getthestarforyou/assets/images/bg-sheet0.png",
+      "games-master/getthestarforyou/assets/images/burst-sheet0.png",
+      "games-master/getthestarforyou/assets/images/c-sheet0.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/getthestarforyou/index.html"
+  },
+  {
+    "name": "Hearthstone",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/hearthstone/assets/background.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/hearthstone/index.html"
+  },
+  {
+    "name": "Hitball",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/hitball/assets/arrow.png",
+      "games-master/hitball/assets/ball.png",
+      "games-master/hitball/assets/coin.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/hitball/index.html"
+  },
+  {
+    "name": "Hitgraywolf3",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/hitgraywolf3/assets/images/logo.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/hitgraywolf3/index.html"
+  },
+  {
+    "name": "Jokingyou",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/jokingyou/assets/sprites/player/gameover.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/jokingyou/index.html"
+  },
+  {
+    "name": "Jump",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/jump/images/atlas.png",
+      "games-master/jump/images/bg.jpg",
+      "games-master/jump/images/btn.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/jump/index.html"
+  },
+  {
+    "name": "Jumpone",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/jumpone/assets/back.png",
+      "games-master/jumpone/assets/buttons.png",
+      "games-master/jumpone/assets/clouds.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/jumpone/index.html"
+  },
+  {
+    "name": "Kite",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/kite/assets/bacground-img.jpg",
+      "games-master/kite/assets/branchs.png",
+      "games-master/kite/assets/compass_rose.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/kite/index.html"
+  },
+  {
+    "name": "Knifehit3",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/knifehit3/assets/knife.png",
+      "games-master/knifehit3/assets/target.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/knifehit3/index.html"
+  },
+  {
+    "name": "Kupao",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/kupao/assets/backIndex_btn.png",
+      "games-master/kupao/assets/city1.png",
+      "games-master/kupao/assets/city2.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/kupao/index.html"
+  },
+  {
+    "name": "Learn3",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/learn3/assets/bomb.png",
+      "games-master/learn3/assets/dude.png",
+      "games-master/learn3/assets/platform.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/learn3/index.html"
+  },
+  {
+    "name": "Legendofwolf",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/legendofwolf/assets/font/number.png",
+      "games-master/legendofwolf/assets/font/number2.png",
+      "games-master/legendofwolf/assets/images/background-skillshop.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/legendofwolf/index.html"
+  },
+  {
+    "name": "Lottery",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/lottery/assets/anim_gezi.png",
+      "games-master/lottery/assets/anim_houzi.png",
+      "games-master/lottery/assets/anim_jinshayu.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/lottery/index.html"
+  },
+  {
+    "name": "Magicplain",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/magicplain/assets/image.png",
+      "games-master/magicplain/assets/tileset.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/magicplain/index.html"
+  },
+  {
+    "name": "Manna",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/manna/images/background.jpg",
+      "games-master/manna/images/background_2.png",
+      "games-master/manna/images/background_3.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/manna/index.html"
+  },
+  {
+    "name": "Marathon",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/marathon/assets/background.jpg",
+      "games-master/marathon/assets/badi.png",
+      "games-master/marathon/assets/bk.jpg"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/marathon/index.html"
+  },
+  {
+    "name": "Maze",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/maze/assets/coin.png",
+      "games-master/maze/assets/door.png",
+      "games-master/maze/assets/enemy.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/maze/index.html"
+  },
+  {
+    "name": "Memory",
+    "type": "Puzzle",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/memory/assets/background.png"
+    ],
+    "shortDesc": "Test your memory! Flip cards and find all the matching pairs.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/memory/index.html"
+  },
+  {
+    "name": "Minorminer",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/minorminer/assets/font/carrier_command.png",
+      "games-master/minorminer/assets/img/battery.png",
+      "games-master/minorminer/assets/img/block-dust.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/minorminer/index.html"
+  },
+  {
+    "name": "Mota",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/mota/assets/a.png",
+      "games-master/mota/assets/enemy.png",
+      "games-master/mota/assets/item.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/mota/index.html"
+  },
+  {
+    "name": "Nail",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/nail/assets/bird.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/nail/index.html"
+  },
+  {
+    "name": "P2ball",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/p2ball/img/balls.png",
+      "games-master/p2ball/img/balls2.png",
+      "games-master/p2ball/img/buttons.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/p2ball/index.html"
+  },
+  {
+    "name": "Pacman",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/pacman/assets/barrier.png",
+      "games-master/pacman/assets/dot.png",
+      "games-master/pacman/assets/ghosts32.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/pacman/index.html"
+  },
+  {
+    "name": "Petparty",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/petparty/assets/images/game/bg_game_screen.png",
+      "games-master/petparty/assets/images/game/extra_moves.png",
+      "games-master/petparty/assets/images/game/fullscreen_icon.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/petparty/index.html"
+  },
+  {
+    "name": "Pixelstar",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "default-thumb.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/pixelstar/index.html"
+  },
+  {
+    "name": "Plane",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/plane/assets/award.png",
+      "games-master/plane/assets/bg.jpg",
+      "games-master/plane/assets/bullet.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/plane/index.html"
+  },
+  {
+    "name": "Planewar",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/planewar/assets/backgrounds/clouds-transparent.png",
+      "games-master/planewar/assets/backgrounds/clouds.png",
+      "games-master/planewar/assets/backgrounds/desert-backgorund.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/planewar/index.html"
+  },
+  {
+    "name": "Prize",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/prize/assets/pin.png",
+      "games-master/prize/assets/wheel.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/prize/index.html"
+  },
+  {
+    "name": "Puzzle",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/puzzle/assets/img/jindu.png",
+      "games-master/puzzle/assets/img/jinduBg.png",
+      "games-master/puzzle/assets/img/pintu.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/puzzle/index.html"
+  },
+  {
+    "name": "Quickrush3",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/quickrush3/assets/images/coin.png",
+      "games-master/quickrush3/assets/images/hr.png",
+      "games-master/quickrush3/assets/images/landscape.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/quickrush3/index.html"
+  },
+  {
+    "name": "Quitsmoke",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/quitsmoke/assets/images/defaultRes.png",
+      "games-master/quitsmoke/assets/images/preloadbar.png",
+      "games-master/quitsmoke/assets/images/preloadbar_border.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/quitsmoke/index.html"
+  },
+  {
+    "name": "Randomdungeon",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/randomdungeon/assets/floor.png",
+      "games-master/randomdungeon/assets/player.png",
+      "games-master/randomdungeon/assets/wall.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/randomdungeon/index.html"
+  },
+  {
+    "name": "Rhythm",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/rhythm/image/anniu.png",
+      "games-master/rhythm/image/baidi1.png",
+      "games-master/rhythm/image/beijing0006.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/rhythm/index.html"
+  },
+  {
+    "name": "Rocket",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/rocket/assets/bg2.png",
+      "games-master/rocket/assets/border-sheet0.png",
+      "games-master/rocket/assets/b_home-sheet0.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/rocket/index.html"
+  },
+  {
+    "name": "Rpgdemo",
+    "type": "RPG",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/rpgdemo/assets/button-a.png",
+      "games-master/rpgdemo/assets/button-arrow.png",
+      "games-master/rpgdemo/assets/button-att.png"
+    ],
+    "shortDesc": "Embark on a mini adventure, defeat monsters, and level up!",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/rpgdemo/index.html"
+  },
+  {
+    "name": "Run",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/run/assets/ACgIABAEGAAg7uS1tgUox8X1pAcwPDgo.png",
+      "games-master/run/assets/ACgIABAEGAAg8_S1tgUoiLqLtAcweDiWAQ.png",
+      "games-master/run/assets/ACgIABAEGAAgleW1tgUoufbZ1wYw_gE46AI.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/run/index.html"
+  },
+  {
+    "name": "Runrobot",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/runrobot/assets/apple-touch-icon.png",
+      "games-master/runrobot/assets/images/button_sprite_sheet.png",
+      "games-master/runrobot/assets/images/gem.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/runrobot/index.html"
+  },
+  {
+    "name": "Russianblock",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/russianblock/img/9patchPanel.png",
+      "games-master/russianblock/img/bg1.png",
+      "games-master/russianblock/img/bg_PROERD.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/russianblock/index.html"
+  },
+  {
+    "name": "Scaldfish",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/scaldfish/assets/bg.jpg",
+      "games-master/scaldfish/assets/btnReStart.jpg",
+      "games-master/scaldfish/assets/btnReStart.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/scaldfish/index.html"
+  },
+  {
+    "name": "Seckill",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/seckill/assets/backGround.png",
+      "games-master/seckill/assets/buttonImage.png",
+      "games-master/seckill/assets/character.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/seckill/index.html"
+  },
+  {
+    "name": "Shenjingmao",
+    "type": "Strategy",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/shenjingmao/assets/images/bg.jpg",
+      "games-master/shenjingmao/assets/images/btn_start.png",
+      "games-master/shenjingmao/assets/images/crazyCat.png"
+    ],
+    "shortDesc": "Trap the cat before it escapes! A game of wits.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/shenjingmao/index.html"
+  },
+  {
+    "name": "Shoot",
+    "type": "Shooter",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/shoot/assets/bg.jpg",
+      "games-master/shoot/assets/bomb.png",
+      "games-master/shoot/assets/bullet.png"
+    ],
+    "shortDesc": "Aim and shoot! Test your accuracy and reaction speed.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/shoot/index.html"
+  },
+  {
+    "name": "Simplechess",
+    "type": "Strategy",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/simplechess/assets/images/logo.png"
+    ],
+    "shortDesc": "A simplified chess game. Challenge your mind!",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/simplechess/index.html"
+  },
+  {
+    "name": "Skeletonguard",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/skeletonguard/assets/backgrounds/back.png",
+      "games-master/skeletonguard/assets/backgrounds/rock.png",
+      "games-master/skeletonguard/assets/backgrounds/sky.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/skeletonguard/index.html"
+  },
+  {
+    "name": "Snap",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/snap/assets/images/btn-ad.png",
+      "games-master/snap/assets/images/btn-again.png",
+      "games-master/snap/assets/images/btn-drive.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/snap/index.html"
+  },
+  {
+    "name": "Stardog",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/stardog/assets/baddie.png",
+      "games-master/stardog/assets/diamond.png",
+      "games-master/stardog/assets/dude.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/stardog/index.html"
+  },
+  {
+    "name": "Starship",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/starship/assets/boss.png",
+      "games-master/starship/assets/bullet.png",
+      "games-master/starship/assets/death-ray.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/starship/index.html"
+  },
+  {
+    "name": "Susliks",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/susliks/assets/gameover.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/susliks/index.html"
+  },
+  {
+    "name": "Swordart",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/swordart/js/assets/damage1.png",
+      "games-master/swordart/js/assets/gun.png",
+      "games-master/swordart/js/assets/maho_bg0.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/swordart/index.html"
+  },
+  {
+    "name": "Tacit",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/tacit/assets/background.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/tacit/index.html"
+  },
+  {
+    "name": "Tank",
+    "type": "Action",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/tank/assets/img/battlecity.png"
+    ],
+    "shortDesc": "Classic tank action game. Destroy enemy tanks and protect your base!",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/tank/index.html"
+  },
+  {
+    "name": "Timberpig",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/timberpig/assets/background.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/timberpig/index.html"
+  },
+  {
+    "name": "Twowar",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/twowar/images/background.jpg",
+      "games-master/twowar/images/blue.png",
+      "games-master/twowar/images/bluecircle.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/twowar/index.html"
+  },
+  {
+    "name": "Unforgetday",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/unforgetday/images/a_01.jpg",
+      "games-master/unforgetday/images/a_02.jpg",
+      "games-master/unforgetday/images/a_03.jpg"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/unforgetday/index.html"
+  },
+  {
+    "name": "Weiduan",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/weiduan/assets/greenjian.png",
+      "games-master/weiduan/assets/logo.jpg",
+      "games-master/weiduan/assets/logo_2.jpg"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/weiduan/index.html"
+  },
+  {
+    "name": "Wipeglass",
+    "type": "Casual",
+    "age": "8-12",
+    "funLevel": 4,
+    "screenshots": [
+      "games-master/wipeglass/assets/park-bg.jpg",
+      "games-master/wipeglass/assets/park-mask.jpg",
+      "games-master/wipeglass/assets/rag.png"
+    ],
+    "shortDesc": "A fun web game.",
+    "highlights": "Fun, easy to play, suitable for all ages.",
+    "howToPlay": "Use mouse or keyboard to control the game. Try to get the highest score!",
+    "iframeUrl": "games-master/wipeglass/index.html"
+  }
+]

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun Game Collection - Play Online</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+      background: #f5f5f7;
+      color: #222;
+    }
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin: 32px auto 18px auto;
+      max-width: 900px;
+    }
+    .filter-btn {
+      background: #fff;
+      color: #007aff;
+      border: 2px solid #007aff;
+      border-radius: 20px;
+      padding: 8px 22px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    .filter-btn.active, .filter-btn:hover {
+      background: #007aff;
+      color: #fff;
+    }
+    .games-masonry {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .game-card {
+      width: 320px;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: transform 0.2s;
+      margin-bottom: 24px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .game-card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 8px 32px rgba(0,122,255,0.13);
+    }
+    .card-carousel {
+      position: relative;
+      width: 100%;
+      height: 180px;
+      overflow: hidden;
+      background: #e5e5ea;
+    }
+    .card-carousel img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 18px 18px 0 0;
+      transition: opacity 0.4s;
+      position: absolute;
+      left: 0; top: 0;
+      opacity: 0;
+      z-index: 1;
+    }
+    .card-carousel img.active {
+      opacity: 1;
+      z-index: 2;
+    }
+    .carousel-dots {
+      position: absolute;
+      bottom: 10px; left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 6px;
+      z-index: 3;
+    }
+    .carousel-dot {
+      width: 10px; height: 10px;
+      background: #fff;
+      border-radius: 50%;
+      opacity: 0.7;
+      border: 1.5px solid #007aff;
+      cursor: pointer;
+      transition: background 0.2s, opacity 0.2s;
+    }
+    .carousel-dot.active { background: #007aff; opacity: 1; }
+    .game-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #007aff;
+      margin: 16px 0 4px 0;
+      text-align: center;
+    }
+    .game-desc {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 8px;
+      text-align: center;
+      min-height: 36px;
+    }
+    .card-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 16px 12px 16px;
+      gap: 8px;
+    }
+    .card-actions button {
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: #007aff;
+      transition: color 0.2s;
+      border-radius: 50%;
+      padding: 6px 10px;
+    }
+    .card-actions .active {
+      color: #ff3b30;
+    }
+    .card-actions .liked {
+      color: #34c759;
+    }
+    .card-actions .play-btn {
+      background: #007aff;
+      color: #fff;
+      border-radius: 18px;
+      padding: 6px 18px;
+      font-size: 1rem;
+      font-weight: 500;
+      margin-left: auto;
+      transition: background 0.2s;
+    }
+    .card-actions .play-btn:hover {
+      background: #34c759;
+    }
+    /* 弹窗试玩 */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      left: 0; top: 0; width: 100vw; height: 100vh;
+      background: rgba(0,0,0,0.7);
+      align-items: center; justify-content: center;
+    }
+    .modal.show { display: flex; }
+    .modal-content {
+      background: #fff;
+      border-radius: 18px;
+      max-width: 900px;
+      width: 96vw;
+      max-height: 90vh;
+      padding: 0;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .close-btn {
+      position: absolute; right: 18px; top: 12px;
+      font-size: 2rem; color: #888; cursor: pointer;
+      z-index: 2;
+    }
+    #modalIframe {
+      width: 100%; height: 420px; border: none; border-radius: 18px 18px 0 0;
+      background: #f5f5f7;
+    }
+    .modal-actions {
+      display: flex; gap: 18px; padding: 12px 24px; align-items: center;
+      border-bottom: 1px solid #eee;
+    }
+    .modal-comments {
+      padding: 12px 24px 24px 24px;
+    }
+    #commentsList { max-height: 120px; overflow-y: auto; margin-bottom: 8px; }
+    #commentsList div { margin-bottom: 6px; font-size: 1rem; }
+    #commentInput { width: 70%; padding: 6px 10px; border-radius: 6px; border: 1px solid #ccc; }
+    @media (max-width: 700px) {
+      .modal-content { max-width: 99vw; }
+      #modalIframe { height: 220px; }
+      .game-card { width: 98vw; }
+      .card-carousel, .card-carousel img { height: 32vw; min-height: 120px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="filter-bar">
+    <button class="filter-btn active" data-type="All">All</button>
+    <button class="filter-btn" data-type="Action">Action</button>
+    <button class="filter-btn" data-type="Puzzle">Puzzle</button>
+    <button class="filter-btn" data-type="Casual">Casual</button>
+    <button class="filter-btn" data-type="Sports">Sports</button>
+    <button class="filter-btn" data-type="Adventure">Adventure</button>
+  </div>
+  <div class="games-masonry" id="gamesMasonry"></div>
+  <!-- 弹窗试玩区 -->
+  <div id="gameModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <iframe id="modalIframe" src="" frameborder="0" allowfullscreen></iframe>
+      <div class="modal-actions">
+        <button id="favBtn" onclick="toggleFavorite()">♡ Favorite</button>
+        <button id="likeBtn" onclick="toggleLike()">👍 Like (<span id="likeCount">0</span>)</button>
+      </div>
+      <div class="modal-comments">
+        <h3>Comments</h3>
+        <div id="commentsList"></div>
+        <input id="commentInput" type="text" placeholder="Add a comment...">
+        <button onclick="addComment()">Post</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    // 示例数据（请替换为你的真实数据）
+    const gamesData = [
+      {
+        name: "Tank Battle",
+        type: "Action",
+        screenshots: ["games-master/tank/thumb1.jpg", "games-master/tank/thumb2.jpg", "games-master/tank/thumb3.jpg"],
+        shortDesc: "Classic tank action game. Destroy enemy tanks and protect your base!",
+        iframeUrl: "games-master/tank/index.html"
+      },
+      {
+        name: "Fruit Ninja",
+        type: "Casual",
+        screenshots: ["games-master/fruit/thumb1.jpg", "games-master/fruit/thumb2.jpg", "games-master/fruit/thumb3.jpg"],
+        shortDesc: "Slice the flying fruits! Fast, fun, and addictive.",
+        iframeUrl: "games-master/fruit/index.html"
+      },
+      {
+        name: "Flappy Bird",
+        type: "Casual",
+        screenshots: ["games-master/flappybird/thumb1.jpg", "games-master/flappybird/thumb2.jpg", "games-master/flappybird/thumb3.jpg"],
+        shortDesc: "Tap to fly and avoid the pipes. How far can you go?",
+        iframeUrl: "games-master/flappybird/index.html"
+      },
+      {
+        name: "2048 Puzzle",
+        type: "Puzzle",
+        screenshots: ["games-master/2048/thumb1.jpg", "games-master/2048/thumb2.jpg", "games-master/2048/thumb3.jpg"],
+        shortDesc: "Combine numbers to reach 2048. Simple to play, hard to master!",
+        iframeUrl: "games-master/2048/index.html"
+      },
+      {
+        name: "Memory Flip",
+        type: "Puzzle",
+        screenshots: ["games-master/memory/thumb1.jpg", "games-master/memory/thumb2.jpg", "games-master/memory/thumb3.jpg"],
+        shortDesc: "Test your memory! Flip cards and find all the matching pairs.",
+        iframeUrl: "games-master/memory/index.html"
+      }
+      // ...补全你的游戏数据
+    ];
+
+    // 渲染游戏卡片
+    function renderGames(type = 'All') {
+      const grid = document.getElementById('gamesMasonry');
+      grid.innerHTML = '';
+      gamesData.filter(g => type === 'All' || g.type === type).forEach((game, idx) => {
+        grid.innerHTML += `
+          <div class="game-card" data-type="${game.type}">
+            <div class="card-carousel" id="carousel${idx}">
+              ${game.screenshots.map((img, i) => `
+                <img src="${img}" class="${i===0?'active':''}" loading="lazy">
+              `).join('')}
+              <div class="carousel-dots">
+                ${game.screenshots.map((_, i) => `
+                  <span class="carousel-dot${i===0?' active':''}" onclick="showCarouselImg(${idx},${i},event)"></span>
+                `).join('')}
+              </div>
+            </div>
+            <div class="game-title">${game.name}</div>
+            <div class="game-desc">${game.shortDesc}</div>
+            <div class="card-actions">
+              <button onclick="toggleFavorite('${game.name}', this)" class="${isFavorite(game.name) ? 'active' : ''}">♡</button>
+              <button onclick="toggleLike('${game.name}', this)" class="${isLiked(game.name) ? 'liked' : ''}">👍 <span>${getLikeCount(game.name)}</span></button>
+              <button class="play-btn" onclick="openModal('${game.iframeUrl}', '${game.name}')">▶ Play</button>
+            </div>
+          </div>
+        `;
+      });
+    }
+    // 轮播切换
+    function showCarouselImg(cardIdx, imgIdx, e) {
+      e.stopPropagation();
+      const carousel = document.getElementById('carousel'+cardIdx);
+      const imgs = carousel.querySelectorAll('img');
+      const dots = carousel.querySelectorAll('.carousel-dot');
+      imgs.forEach((img, i) => img.classList.toggle('active', i === imgIdx));
+      dots.forEach((dot, i) => dot.classList.toggle('active', i === imgIdx));
+    }
+    // 弹窗试玩
+    function openModal(url, gameName) {
+      document.getElementById('gameModal').classList.add('show');
+      document.getElementById('modalIframe').src = url;
+      document.getElementById('favBtn').dataset.game = gameName;
+      document.getElementById('likeBtn').dataset.game = gameName;
+      document.getElementById('likeCount').innerText = getLikeCount(gameName);
+      updateFavLikeUI(gameName);
+      updateLikeUI(gameName);
+      loadComments(gameName);
+    }
+    function closeModal() {
+      document.getElementById('gameModal').classList.remove('show');
+      document.getElementById('modalIframe').src = '';
+    }
+    // 收藏
+    function isFavorite(game) {
+      return (JSON.parse(localStorage.getItem('favorites') || '[]')).includes(game);
+    }
+    function toggleFavorite(game, btn) {
+      let favs = JSON.parse(localStorage.getItem('favorites') || '[]');
+      if (favs.includes(game)) {
+        favs = favs.filter(g => g !== game);
+      } else {
+        favs.push(game);
+      }
+      localStorage.setItem('favorites', JSON.stringify(favs));
+      if (btn) btn.classList.toggle('active');
+      updateFavLikeUI(game);
+    }
+    function updateFavLikeUI(game) {
+      const btn = document.getElementById('favBtn');
+      if (!btn) return;
+      btn.innerText = isFavorite(game) ? '♥ Favorited' : '♡ Favorite';
+    }
+    // 点赞
+    function getLikeCount(game) {
+      return parseInt(localStorage.getItem('like_' + game) || '0');
+    }
+    function isLiked(game) {
+      return !!localStorage.getItem('liked_' + game);
+    }
+    function toggleLike(game, btn) {
+      let count = getLikeCount(game);
+      if (isLiked(game)) {
+        localStorage.removeItem('liked_' + game);
+        count = Math.max(0, count - 1);
+      } else {
+        localStorage.setItem('liked_' + game, '1');
+        count += 1;
+      }
+      localStorage.setItem('like_' + game, count);
+      if (btn) btn.classList.toggle('liked');
+      document.getElementById('likeCount').innerText = count;
+      updateLikeUI(game);
+    }
+    function updateLikeUI(game) {
+      // 可扩展：同步所有点赞按钮状态
+    }
+    // 评论
+    function loadComments(game) {
+      const list = document.getElementById('commentsList');
+      const comments = JSON.parse(localStorage.getItem('comments_' + game) || '[]');
+      list.innerHTML = comments.map(c => `<div>${c}</div>`).join('');
+    }
+    function addComment() {
+      const game = document.getElementById('favBtn').dataset.game;
+      const input = document.getElementById('commentInput');
+      const val = input.value.trim();
+      if (!val) return;
+      let comments = JSON.parse(localStorage.getItem('comments_' + game) || '[]');
+      comments.push(val);
+      localStorage.setItem('comments_' + game, JSON.stringify(comments));
+      input.value = '';
+      loadComments(game);
+    }
+    // 筛选
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.onclick = function() {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        renderGames(this.dataset.type);
+      }
+    });
+    // 初始化
+    document.addEventListener('DOMContentLoaded', () => {
+      renderGames();
+      document.getElementById('gameModal').addEventListener('click', e => {
+        if (e.target.classList.contains('modal')) closeModal();
+      });
+    });
+  </script>
+</body>
+</html> 
